@@ -1,9 +1,9 @@
 export const playlist = [
   {
     id: 1,
-    title: "Gospel Lofi Mix",
+    title: "Deliverance",
     artist: "Hopefield Radio",
-    src: "/audio/hopefield-radio-music.mp3",
+    src: "/audio/Deliverance -Snippet 9-27-25-1.mp3",
   },
   // Add more tracks here:
   // {
