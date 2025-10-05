@@ -3,7 +3,7 @@ export const playlist = [
     id: 1,
     title: "Deliverance",
     artist: "Hopefield Radio",
-    src: "/audio/Deliverance -Snippet 9-27-25-1.mp3",
+    src: "/audio/Deliverance -Snippett 9-27-25-1.mp3",
   },
   // Add more tracks here:
   // {
