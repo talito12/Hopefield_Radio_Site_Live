@@ -1,14 +1,39 @@
+"use client"
+
 import { FloatingNav } from "@/components/floating-nav"
 import { BackgroundVideo } from "@/components/background-video"
-import { MusicPlayer } from "@/components/music-player"
+import { useMusic } from "@/lib/music-context"
 import { Mic } from "lucide-react"
+import { useEffect, useRef } from "react"
 
 export default function PodcastsPage() {
+  const { pauseMusic } = useMusic()
+  const iframeRefs = useRef<(HTMLIFrameElement | null)[]>([])
+
+  useEffect(() => {
+    const handleMessage = (event: MessageEvent) => {
+      // YouTube iframe API sends messages when video state changes
+      if (event.data && typeof event.data === "string") {
+        try {
+          const data = JSON.parse(event.data)
+          // YouTube player state: 1 = playing
+          if (data.event === "onStateChange" && data.info === 1) {
+            pauseMusic()
+          }
+        } catch (e) {
+          // Ignore parsing errors
+        }
+      }
+    }
+
+    window.addEventListener("message", handleMessage)
+    return () => window.removeEventListener("message", handleMessage)
+  }, [pauseMusic])
+
   return (
     <main className="relative min-h-screen w-full overflow-hidden">
       <BackgroundVideo />
       <FloatingNav />
-      <MusicPlayer />
 
       <div className="relative z-10 container mx-auto px-6 py-24">
         <div className="max-w-6xl mx-auto">

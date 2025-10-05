@@ -7,6 +7,7 @@ import { createContext, useContext, useRef, useState, type ReactNode } from "rea
 interface MusicContextType {
   isPlaying: boolean
   togglePlay: () => void
+  pauseMusic: () => void // <CHANGE> Add pauseMusic function
   audioRef: React.RefObject<HTMLAudioElement>
 }
 
@@ -26,6 +27,14 @@ export function MusicProvider({ children }: { children: ReactNode }) {
         })
       }
       setIsPlaying(!isPlaying)
+    }
+  }
+
+  // <CHANGE> Add pauseMusic function to pause music from anywhere (like when videos play)
+  const pauseMusic = () => {
+    if (audioRef.current && isPlaying) {
+      audioRef.current.pause()
+      setIsPlaying(false)
     }
   }
 

@@ -1,6 +1,5 @@
 import { FloatingNav } from "@/components/floating-nav"
 import { BackgroundVideo } from "@/components/background-video"
-import { MusicPlayer } from "@/components/music-player"
 import { Button } from "@/components/ui/button"
 import { Youtube, ShoppingCart } from "lucide-react"
 
@@ -102,7 +101,6 @@ export default function MusicPage() {
     <main className="relative min-h-screen w-full overflow-hidden">
       <BackgroundVideo />
       <FloatingNav />
-      <MusicPlayer />
 
       <div className="relative z-10 container mx-auto px-6 py-24">
         <div className="max-w-6xl mx-auto">

@@ -2,7 +2,6 @@
 
 import { FloatingNav } from "@/components/floating-nav"
 import { BackgroundVideo } from "@/components/background-video"
-import { MusicPlayer } from "@/components/music-player"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Heart, Video, Users } from "lucide-react"
@@ -13,7 +12,6 @@ export default function MarriagePage() {
     <main className="relative min-h-screen w-full overflow-hidden">
       <BackgroundVideo />
       <FloatingNav />
-      <MusicPlayer />
 
       <div className="relative z-10 container mx-auto px-6 py-24">
         <div className="max-w-6xl mx-auto">

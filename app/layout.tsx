@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Playfair_Display, Space_Mono } from "next/font/google"
 import "./globals.css"
 import { MusicProvider } from "@/lib/music-context"
+import { MusicPlayer } from "@/components/music-player" // <CHANGE> Import MusicPlayer
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -29,7 +30,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${playfair.variable} ${spaceMono.variable}`}>
       <body className="antialiased">
-        <MusicProvider>{children}</MusicProvider>
+        <MusicProvider>
+          {children}
+          <MusicPlayer /> {/* <CHANGE> Add MusicPlayer here so it persists across all pages */}
+        </MusicProvider>
       </body>
     </html>
   )
