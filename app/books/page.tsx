@@ -18,8 +18,7 @@ const books = [
     title: "Letter to my sisters",
     author: "Tyanna Lindsay",
     status: "available",
-    description:
-      "A heartfelt collection of letters offering wisdom, encouragement, and inspiration to women navigating life's journey. Through personal stories and biblical insights, Tyanna shares powerful messages about faith, identity, and sisterhood.",
+    description: "Letters to my sisters is a fierce, faith-lit memoir of a black woman who turns her most private pain into a public path to healing. Raised under relentless expectations, she spirals into self-doubt and suicidal thoughts-until a quiet inner voice urgers her to fight. Witness this epic Journey of love, faith and redemption",
     coverImage: "/Letters_to_my_sisters.jpg",
   },
   {
