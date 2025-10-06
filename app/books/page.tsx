@@ -19,7 +19,7 @@ const books = [
     author: "Tyanna Lindsay",
     status: "available",
     description:
-      "A heartfelt collection of letters offering wisdom, encouragement, and inspiration to women navigating life's journey. Through personal stories and biblical insights, Tyanna shares powerful messages about faith, identity, and sisterhood.",
+      "“Letters to My Sisters” is a fierce, faith-lit memoir of a Black woman who turns her most private pain into a public path to healing. Raised under relentless expectations, she spirals into self-doubt and suicidal thoughts—until a quiet inner voice urges her to fight. She begins to write. In tender, unflinching letters to her “sisters,” she chronicles trauma, recovery, and the everyday work of choosing self-worth. As she confronts harmful patterns in love and reclaims her identity, she discovers a steady, transforming relationship with God. Each letter becomes both testimony and toolkit—modeling resilience, radical self-acceptance, and hope. Emerging with purpose, she uses her voice to lift other young women while building a grounded life with her husband and growing family. This is a call to keep going: the light you seek may be the light you become.",
     coverImage: "/Letters_to_my_sisters.jpg",
   },
   {
