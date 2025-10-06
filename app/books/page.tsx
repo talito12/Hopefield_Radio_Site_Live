@@ -20,7 +20,7 @@ const books = [
     status: "available",
     description:
       "A heartfelt collection of letters offering wisdom, encouragement, and inspiration to women navigating life's journey. Through personal stories and biblical insights, Tyanna shares powerful messages about faith, identity, and sisterhood.",
-    coverImage: "/book-cover-letter-to-my-sisters-faith-women.jpg",
+    coverImage: "/Letters_to_my_sisters.jpg",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const books = [
     status: "preorder",
     description:
       "An inspiring journey of faith and adventure as Tyanna shares stories of traveling the world while deepening her relationship with God. Discover how stepping out in faith can lead to extraordinary experiences and spiritual growth.",
-    coverImage: "/book-cover-tripping-for-jesus-travel-faith-adventu.jpg",
+    coverImage: "/Letters_to_my_sisters.jpg",
   },
   {
     id: 3,
@@ -114,7 +114,7 @@ export default function BooksPage() {
                       </div>
                       <div className="space-y-3">
                         <Button asChild className="w-full" size="lg">
-                          <a href="https://your-shopify-store.com" target="_blank" rel="noopener noreferrer">
+                          <a href="https://hopefieldradio.myshopify.com" target="_blank" rel="noopener noreferrer">
                             {book.status === "available" ? "Order Now" : "Pre-Order Now"}
                           </a>
                         </Button>
