@@ -128,7 +128,7 @@ export default function MusicPage() {
                 <p className="text-gray-700 leading-relaxed mb-6">{albums[0].description}</p>
                 <div className="space-y-3">
                   <Button asChild size="lg" className="w-full">
-                    <a href="https://your-shopify-store.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://hopefieldradio.myshopify.com" target="_blank" rel="noopener noreferrer">
                       <ShoppingCart className="w-4 h-4 mr-2" />
                       Pre-Order Now
                     </a>
@@ -155,7 +155,7 @@ export default function MusicPage() {
                       <p className="text-sm text-gray-600 mb-2">{album.year}</p>
                       <p className="text-gray-700 text-sm leading-relaxed mb-4">{album.description}</p>
                       <Button asChild variant="outline" size="sm" className="w-full bg-transparent">
-                        <a href="https://your-shopify-store.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://hopefieldradio.myshopify.com" target="_blank" rel="noopener noreferrer">
                           <ShoppingCart className="w-4 h-4 mr-2" />
                           Buy Digital Download
                         </a>
