@@ -81,6 +81,25 @@ export default function AboutPage() {
                 their purpose with confidence and grace. When she's not writing or recording podcasts, you'll find her
                 traveling, exploring new cultures, and creating memories with TJ.
               </p>
+              <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-4">
+                <p className="text-sm font-semibold text-blue-900 mb-2">🏀 Fun Fact</p>
+                <p className="text-sm text-gray-700 leading-relaxed">
+                  Did you know Tyanna traveled to Honduras on a missions trip with Rock City church and helped to build
+                  houses for a family in need. She is well known in her community for her work serving others and started
+                  a yearly Thanksgiving serving event that feeds the homeless population in Columbus, Ohio each year.  
+                </p>
+              </div>
+              {/* Honduras picture*/}
+              <div className="aspect-video bg-gray-900 rounded-lg overflow-hidden">
+                <iframe
+                  className="w-full h-full"
+                  src="/TYANNA_MISSION_TRIP.jpeg"
+                  title="TJ Lindsay Mission Trip"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+              <p className="text-xs text-gray-500 mt-2 text-center">Tyanna Mission Trip Photo</p>
             </div>
 
             {/* TJ's Bio */}
@@ -108,17 +127,17 @@ export default function AboutPage() {
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-4">
                 <p className="text-sm font-semibold text-blue-900 mb-2">🏀 Fun Fact</p>
                 <p className="text-sm text-gray-700 leading-relaxed">
-                  TJ is a graduate of Southern Illinois University where he played college basketball. His athletic
+                  Did you know TJ is a graduate of Southern Illinois University where he played college basketball. His athletic
                   journey took him across the country, from New York City to Salt Lake City, shaping his discipline,
                   teamwork, and competitive spirit that he brings to everything he does today.
                 </p>
               </div>
-              {/* Basketball Highlight Video */}
+              {/* Basketball Picture */}
               <div className="aspect-video bg-gray-900 rounded-lg overflow-hidden">
                 <iframe
                   className="w-full h-full"
-                  src="https://youtu.be/l-8hrlGJKZQ?si=Hw0eZEATPZlJ-LBL"
-                  title="TJ Lindsay Basketball Highlights"
+                  src="/TJ_BASKETBALL.jpeg"
+                  title="TJ Lindsay Basketball Picture"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 />
