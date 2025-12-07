@@ -14,7 +14,7 @@ export default function AboutPage() {
         <div className="max-w-5xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-serif tracking-tight text-white drop-shadow-lg mb-4">About Us</h1>
           <p className="text-lg md:text-xl text-white/90 drop-shadow mb-12 leading-relaxed">
-            Meet the hearts behind Hopefield Radio
+            Meet The Lindsays!!!
           </p>
 
           {/* Couple Photo Section */}
@@ -23,7 +23,7 @@ export default function AboutPage() {
               <img
                 src="/The_Lindsays_SD.png"
                 alt="TJ and Tyanna Lindsay"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
             <div className="p-8 text-center">
@@ -64,7 +64,7 @@ export default function AboutPage() {
             <div className="bg-white/95 backdrop-blur-sm rounded-lg p-8 shadow-xl">
               <div className="aspect-square relative bg-gradient-to-br from-pink-100 to-purple-200 rounded-lg mb-6 overflow-hidden">
                 <img
-                  src="/professional-woman-portrait-warm-smile-author.jpg"
+                  src="/TYANNA_BIO.jpeg"
                   alt="Tyanna Lindsay"
                   className="w-full h-full object-cover"
                 />
@@ -87,7 +87,7 @@ export default function AboutPage() {
             <div className="bg-white/95 backdrop-blur-sm rounded-lg p-8 shadow-xl">
               <div className="aspect-square relative bg-gradient-to-br from-blue-100 to-teal-200 rounded-lg mb-6 overflow-hidden">
                 <img
-                  src="/professional-man-portrait-confident-musician.jpg"
+                  src="/TJ_BIO.jpeg"
                   alt="TJ Lindsay"
                   className="w-full h-full object-cover"
                 />
