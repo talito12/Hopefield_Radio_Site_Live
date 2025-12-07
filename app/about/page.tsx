@@ -117,7 +117,7 @@ export default function AboutPage() {
               <div className="aspect-video bg-gray-900 rounded-lg overflow-hidden">
                 <iframe
                   className="w-full h-full"
-                  src="https://www.youtube.com/watch?v=l-8hrlGJKZQ"
+                  src="https://youtu.be/l-8hrlGJKZQ?si=Hw0eZEATPZlJ-LBL"
                   title="TJ Lindsay Basketball Highlights"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
