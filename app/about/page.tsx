@@ -82,24 +82,22 @@ export default function AboutPage() {
                 traveling, exploring new cultures, and creating memories with TJ.
               </p>
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-4">
-                <p className="text-sm font-semibold text-blue-900 mb-2">🏀 Fun Fact</p>
+                <p className="text-sm font-semibold text-blue-900 mb-2">🌏 Fun Fact</p>
                 <p className="text-sm text-gray-700 leading-relaxed">
                   Did you know Tyanna traveled to Honduras on a missions trip with Rock City church and helped to build
                   houses for a family in need. She is well known in her community for her work serving others and started
-                  a yearly Thanksgiving serving event that feeds the homeless population in Columbus, Ohio each year.  
+                  a yearly Thanksgiving serving event that feeds the homeless population in Columbus, Ohio.
                 </p>
               </div>
               {/* Honduras picture*/}
-              <div className="aspect-video bg-gray-900 rounded-lg overflow-hidden">
-                <iframe
-                  className="w-full h-full"
+              <div className="relative w-full aspect-video rounded-lg overflow-hidden">
+                <img
                   src="/TYANNA_MISSION_TRIP.jpeg"
-                  title="TJ Lindsay Mission Trip"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
+                  alt="TJ Lindsay Mission Trip"
+                  className="w-full h-full object-cover"
                 />
               </div>
-              <p className="text-xs text-gray-500 mt-2 text-center">Tyanna Mission Trip Photo</p>
+              <p className="text-sm text-white/70 text-center">Mission trip experience</p>
             </div>
 
             {/* TJ's Bio */}
@@ -133,16 +131,14 @@ export default function AboutPage() {
                 </p>
               </div>
               {/* Basketball Picture */}
-              <div className="aspect-video bg-gray-900 rounded-lg overflow-hidden">
-                <iframe
-                  className="w-full h-full"
+              <div className="relative w-full aspect-video rounded-lg overflow-hidden">
+                <img
                   src="/TJ_BASKETBALL.jpeg"
-                  title="TJ Lindsay Basketball Picture"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
+                  alt="TJ Lindsay Basketball Picture"
+                  className="w-full h-full object-cover"
                 />
               </div>
-              <p className="text-xs text-gray-500 mt-2 text-center">TJ's College Basketball Highlights</p>
+              <p className="text-sm text-white/70 text-center">Playing basketball</p>
             </div>
           </div>
 
