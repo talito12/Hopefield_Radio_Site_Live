@@ -21,9 +21,9 @@ export default function AboutPage() {
           <div className="bg-white/95 backdrop-blur-sm rounded-lg overflow-hidden shadow-xl mb-8">
             <div className="aspect-[16/9] relative bg-gradient-to-br from-amber-100 to-orange-200">
               <img
-                src="/The_Lindsays_SD.png"
+                src="/Wedding_LAUGH.jpeg"
                 alt="TJ and Tyanna Lindsay"
-                className="w-full h-full object-contain"
+                className="w-full h-full object-cover"
               />
             </div>
             <div className="p-8 text-center">
