@@ -97,7 +97,7 @@ export default function ContactPage() {
                     <h3 className="text-sm font-semibold text-gray-900 mb-2">Hopefield Radio (Shared)</h3>
                     <div className="space-y-2">
                       <Button asChild variant="outline" className="w-full justify-start bg-transparent" size="sm">
-                        <a href="https://instagram.com/hopefieldradio" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/thelindsaysshow/" target="_blank" rel="noopener noreferrer">
                           <Instagram className="w-4 h-4 mr-3" />
                           @hopefieldradio (Coming Soon)
                         </a>
