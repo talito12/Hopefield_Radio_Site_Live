@@ -66,7 +66,7 @@ export default function MarriagePage() {
               <div className="aspect-video bg-gray-900 rounded-lg overflow-hidden">
                 <iframe
                   className="w-full h-full"
-                  src="https://www.youtube.com/embed/YOUR_WEDDING_VIDEO_ID"
+                  src="https://www.youtube.com/embed/I5ZqTlObxw0?si=YNbvKHIRz6VF-7In"
                   title="TJ and Tyanna Wedding Video"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
