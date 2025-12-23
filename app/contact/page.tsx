@@ -99,13 +99,13 @@ export default function ContactPage() {
                       <Button asChild variant="outline" className="w-full justify-start bg-transparent" size="sm">
                         <a href="https://www.instagram.com/thelindsaysshow/" target="_blank" rel="noopener noreferrer">
                           <Instagram className="w-4 h-4 mr-3" />
-                          @hopefieldradio (Coming Soon)
+                          @thelindsaysshow
                         </a>
                       </Button>
                       <Button asChild variant="outline" className="w-full justify-start bg-transparent" size="sm">
-                        <a href="https://facebook.com/hopefieldradio" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.facebook.com/profile.php?id=61585583761173#" target="_blank" rel="noopener noreferrer">
                           <Facebook className="w-4 h-4 mr-3" />
-                          Hopefield Radio (Coming Soon)
+                          Hopefield Radio
                         </a>
                       </Button>
                     </div>
