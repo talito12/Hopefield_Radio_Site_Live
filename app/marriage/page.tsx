@@ -24,7 +24,7 @@ export default function MarriagePage() {
           <div className="bg-white/95 backdrop-blur-sm rounded-lg overflow-hidden shadow-xl mb-12">
             <div className="aspect-[21/9] relative bg-gradient-to-br from-pink-100 to-purple-200">
               <img
-                src="/beautiful-couple-wedding-love-romantic-sunset.jpg"
+                src="/Marriage_01.JPG"
                 alt="TJ and Tyanna Lindsay Marriage"
                 className="w-full h-full object-cover"
               />
