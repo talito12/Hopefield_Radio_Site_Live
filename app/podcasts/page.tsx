@@ -132,7 +132,7 @@ export default function PodcastsPage() {
               <div className="aspect-video bg-gray-900 rounded-lg mb-6 overflow-hidden">
                 <iframe
                   className="w-full h-full"
-                  src="https://www.youtube.com/embed/HOPEFIELD_PLAYLIST_ID"
+                  src="https://www.youtube.com/embed/videoseries?list=PLt_S7-EKlt2HzwOFOzppx9mHpKpPrjHhX"
                   title="Hopefield Radio Podcast"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -140,20 +140,23 @@ export default function PodcastsPage() {
               </div>
 
               <div className="grid sm:grid-cols-2 gap-6">
-                {[1, 2].map((i) => (
+                {[
+                  { id: 'KsIDhNgb0Dk', title: '5 Tips to Live by', description: 'Talito gives 5 tips to live your life by' },
+                  { id: 'dn1CWCOqtB4', title: 'Reaching your potential', description: 'Talito details the ways he has found in his life to reveal your true potential and reach it' },
+                ].map((episode, i) => (
                   <div key={i} className="bg-gray-50 rounded-lg overflow-hidden">
                     <div className="aspect-video bg-gray-900">
                       <iframe
                         className="w-full h-full"
-                        src={`https://www.youtube.com/embed/HOPEFIELD_VIDEO_${i}`}
-                        title={`Hopefield Radio Episode ${i}`}
+                        src={`https://www.youtube.com/embed/${episode.id}`}
+                        title={episode.title}
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                       />
                     </div>
                     <div className="p-4">
-                      <h4 className="font-serif text-lg text-gray-900 mb-2">Episode Title {i}</h4>
-                      <p className="text-sm text-gray-600">Inspiring conversations about purpose</p>
+                      <h4 className="font-serif text-lg text-gray-900 mb-2">{episode.title}</h4>
+                      <p className="text-sm text-gray-600">{episode.description}</p>
                     </div>
                   </div>
                 ))}
