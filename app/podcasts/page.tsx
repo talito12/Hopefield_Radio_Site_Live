@@ -90,20 +90,25 @@ export default function PodcastsPage() {
           <div className="mb-12">
             <h3 className="text-2xl font-serif text-white drop-shadow-lg mb-6">Recent Episodes</h3>
             <div className="grid md:grid-cols-2 gap-6">
-              {[1, 2, 3, 4].map((i) => (
+              {[
+                { id: 'yAMns3CN3_w', title: 'Who\'s the prize in a relationship?', description: 'Who\'s the prize in a relationship?' },
+                { id: 'wSFkuHKnIjA&t=2636s', title: 'The Great Expectation Reset: Aligning your marriage vision', description: 'Managing Expectations in marriage over time' },
+                { id: 'eh3XRCSY_-Q&t=1s', title: 'Pick Mes, Simps and Reciprocation', description: 'Discussing the concept behind common labels placed on people in today\'s dating society'},
+                { id: 'RqG8uI8bXGQ', title: 'The Talking Stage and the power of words', description: 'Sharing our thoughts on the relevance of the talking stage in a relationship'},
+              ].map((episode, i) => (
                 <div key={i} className="bg-white/95 backdrop-blur-sm rounded-lg overflow-hidden shadow-xl">
                   <div className="aspect-video bg-gray-900">
                     <iframe
                       className="w-full h-full"
-                      src={`https://www.youtube.com/embed/VIDEO_ID_${i}`}
-                      title={`The Lindsays Episode ${i}`}
+                      src={`https://www.youtube.com/embed/${episode.id}`}
+                      title={episode.title}
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
                     />
                   </div>
                   <div className="p-4">
-                    <h4 className="font-serif text-lg text-gray-900 mb-2">Episode Title {i}</h4>
-                    <p className="text-sm text-gray-600">A conversation about faith and marriage</p>
+                    <h4 className="font-serif text-lg text-gray-900 mb-2">{episode.title}</h4>
+                    <p className="text-sm text-gray-600">{episode.description}</p>
                   </div>
                 </div>
               ))}
