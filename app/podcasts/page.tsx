@@ -62,7 +62,7 @@ export default function PodcastsPage() {
               <div className="aspect-video bg-gray-900 rounded-lg mb-6 overflow-hidden">
                 <iframe
                   className="w-full h-full"
-                  src="https://www.youtube.com/embed/PLAYLIST_ID_HERE"
+                  src="https://www.youtube.com/embed/videoseries?list=PLkmS7-bizgDGLImyRtO5hm2Wjq5PgD30z"
                   title="The Lindsays Podcast"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen

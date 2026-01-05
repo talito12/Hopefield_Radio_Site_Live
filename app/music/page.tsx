@@ -19,7 +19,7 @@ const albums = [
     artist: "Talito",
     status: "available",
     year: "2021",
-    description: "A masterful display of lyricism and production that is based on the 4 kings boxing error in the 80s!",
+    description: "A masterful display of lyricism and production that is based on the 4 kings boxing era in the 80s!",
     coverImage: "/Sweet_Science_Artwork.jpg",
   },
   {
