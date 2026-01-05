@@ -23,12 +23,12 @@ const books = [
   },
   {
     id: 2,
-    title: "Tripping for Jesus",
+    title: "Trippin for Jesus",
     author: "Tyanna Lindsay",
     status: "preorder",
     description:
       "An inspiring journey of faith and adventure as Tyanna shares stories of traveling the world while deepening her relationship with God. Discover how stepping out in faith can lead to extraordinary experiences and spiritual growth.",
-    coverImage: "/Letters_to_my_sisters.jpg",
+    coverImage: "/TFG_book_cover.jpg",
   },
   {
     id: 3,
@@ -37,16 +37,16 @@ const books = [
     status: "preorder",
     description:
       "A powerful exploration of authenticity, purpose, and taking life seriously. TJ challenges readers to stop playing games with their destiny and start living with intention, passion, and unwavering commitment to their calling.",
-    coverImage: "/book-cover-ain-t-nobody-playing-motivation-purpose.jpg",
+    coverImage: "/Untitled_design.jpg",
   },
   {
     id: 4,
     title: "Hopefield",
-    author: "TJ & Tyanna Lindsay",
+    author: "TJ Lindsay",
     status: "preorder",
     description:
-      "The story behind Hopefield Radio and the journey of building a creative ministry together. A testament to faith, love, and the power of hope to transform lives and inspire communities.",
-    coverImage: "/book-cover-hopefield-hope-faith-ministry.jpg",
+      "A fururistic narrative that takes readers on a journey through the effects that technology can have on a generation when not handled with care. Creating an entirely new world that is beautiful on the outside but complicated and still very much primitive at its core",
+    coverImage: "/Untitled_design.jpg",
   },
 ]
 
