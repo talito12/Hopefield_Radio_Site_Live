@@ -37,7 +37,7 @@ const books = [
     status: "preorder",
     description:
       "A powerful exploration of authenticity, purpose, and taking life seriously. TJ challenges readers to stop playing games with their destiny and start living with intention, passion, and unwavering commitment to their calling.",
-    coverImage: "/Untitled_design.jpg",
+    coverImage: "/Untitled_design_1.jpg",
   },
   {
     id: 4,
@@ -46,7 +46,7 @@ const books = [
     status: "preorder",
     description:
       "A fururistic narrative that takes readers on a journey through the effects that technology can have on a generation when not handled with care. Creating an entirely new world that is beautiful on the outside but complicated and still very much primitive at its core",
-    coverImage: "/Untitled_design.jpg",
+    coverImage: "/Untitled_design_1.jpg",
   },
 ]
 
