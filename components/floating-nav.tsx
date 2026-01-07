@@ -46,7 +46,7 @@ export function FloatingNav() {
           </Link>
 
           <a
-            href="https://your-shopify-store.myshopify.com"
+            href="https://hopefieldradio.myshopify.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-2 border-2 border-white/80 rounded-full text-sm font-mono tracking-wider font-bold text-white hover:bg-white hover:text-gray-900 transition-all drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]"
