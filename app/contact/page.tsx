@@ -19,7 +19,7 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    const mailtoLink = `mailto:hello@hopefieldradio.com?subject=Message from ${formData.name}&body=${formData.message}%0D%0A%0D%0AFrom: ${formData.email}`
+    const mailtoLink = `mailto:thelindsays12@gmail.com?subject=Message from ${formData.name}&body=${formData.message}%0D%0A%0D%0AFrom: ${formData.email}`
     window.location.href = mailtoLink
   }
 
@@ -115,13 +115,13 @@ export default function ContactPage() {
                     <h3 className="text-sm font-semibold text-gray-900 mb-2">TJ Lindsay</h3>
                     <div className="space-y-2">
                       <Button asChild variant="outline" className="w-full justify-start bg-transparent" size="sm">
-                        <a href="https://instagram.com/tjlindsay" target="_blank" rel="noopener noreferrer">
+                        <a href="https://instagram.com/real_talito" target="_blank" rel="noopener noreferrer">
                           <Instagram className="w-4 h-4 mr-3" />
                           @tjlindsay
                         </a>
                       </Button>
                       <Button asChild variant="outline" className="w-full justify-start bg-transparent" size="sm">
-                        <a href="https://youtube.com/@tjlindsay" target="_blank" rel="noopener noreferrer">
+                        <a href="https://youtube.com/@talito2726" target="_blank" rel="noopener noreferrer">
                           <Youtube className="w-4 h-4 mr-3" />
                           TJ Lindsay
                         </a>
@@ -133,7 +133,7 @@ export default function ContactPage() {
                     <h3 className="text-sm font-semibold text-gray-900 mb-2">Tyanna Lindsay</h3>
                     <div className="space-y-2">
                       <Button asChild variant="outline" className="w-full justify-start bg-transparent" size="sm">
-                        <a href="https://instagram.com/tyannalindsay" target="_blank" rel="noopener noreferrer">
+                        <a href="https://instagram.com/highofflife12" target="_blank" rel="noopener noreferrer">
                           <Instagram className="w-4 h-4 mr-3" />
                           @tyannalindsay
                         </a>
@@ -150,9 +150,9 @@ export default function ContactPage() {
                   href="mailto:hello@hopefieldradio.com"
                   className="text-amber-600 hover:text-amber-700 font-medium text-lg break-all"
                 >
-                  hello@hopefieldradio.com
+                  thelindsays12@gmail.com
                 </a>
-                <p className="text-xs text-gray-500 mt-2">(Email coming soon - update when ready)</p>
+                <p className="text-xs text-gray-500 mt-2">(We would love to hear from you)</p>
               </div>
             </div>
           </div>
