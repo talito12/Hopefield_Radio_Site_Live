@@ -117,7 +117,7 @@ export default function ContactPage() {
                       <Button asChild variant="outline" className="w-full justify-start bg-transparent" size="sm">
                         <a href="https://instagram.com/real_talito" target="_blank" rel="noopener noreferrer">
                           <Instagram className="w-4 h-4 mr-3" />
-                          @tjlindsay
+                          @real_talito
                         </a>
                       </Button>
                       <Button asChild variant="outline" className="w-full justify-start bg-transparent" size="sm">
@@ -135,7 +135,7 @@ export default function ContactPage() {
                       <Button asChild variant="outline" className="w-full justify-start bg-transparent" size="sm">
                         <a href="https://instagram.com/highofflife12" target="_blank" rel="noopener noreferrer">
                           <Instagram className="w-4 h-4 mr-3" />
-                          @tyannalindsay
+                          @highofflife12
                         </a>
                       </Button>
                     </div>
