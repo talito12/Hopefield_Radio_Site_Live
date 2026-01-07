@@ -20,33 +20,37 @@ const books = [
     status: "available",
     description: "Letters to my sisters is a fierce, faith-lit memoir of a black woman who turns her most private pain into a public path to healing. Raised under relentless expectations, she spirals into self-doubt and suicidal thoughts-until a quiet inner voice urgers her to fight. Witness this epic Journey of love, faith and redemption",
     coverImage: "/Letters_to_my_sisters.jpg",
+    shopifyUrl: "https://hopefieldradio.myshopify.com/products/letters-to-my-sisters?variant=46867661914348",
   },
   {
     id: 2,
-    title: "Trippin for Jesus",
+    title: "Trippin for God",
     author: "Tyanna Lindsay",
-    status: "preorder",
+    status: "Pre-Order",
     description:
       "An inspiring journey of faith and adventure as Tyanna shares stories of traveling the world while deepening her relationship with God. Discover how stepping out in faith can lead to extraordinary experiences and spiritual growth.",
     coverImage: "/TFG_book_cover.jpg",
+    shopifyUrl: "https://hopefieldradio.myshopify.com/products/trippin-for-god?variant=47177418637548",
   },
   {
     id: 3,
     title: "Ain't Nobody Playing But You",
     author: "TJ Lindsay",
-    status: "preorder",
+    status: "coming-soon",
     description:
       "A powerful exploration of authenticity, purpose, and taking life seriously. TJ challenges readers to stop playing games with their destiny and start living with intention, passion, and unwavering commitment to their calling.",
     coverImage: "/Untitled_design_1.jpg",
+    shopifyUrl: null,
   },
   {
     id: 4,
     title: "Hopefield",
     author: "TJ Lindsay",
-    status: "preorder",
+    status: "coming-soon",
     description:
       "A fururistic narrative that takes readers on a journey through the effects that technology can have on a generation when not handled with care. Creating an entirely new world that is beautiful on the outside but complicated and still very much primitive at its core",
     coverImage: "/Untitled_design_1.jpg",
+    shopifyUrl: null,
   },
 ]
 
@@ -84,10 +88,14 @@ export default function BooksPage() {
                         <p className="text-sm text-gray-600 mb-2">by {book.author}</p>
                         <span
                           className={`inline-block px-3 py-1 rounded-full text-xs font-mono ${
-                            book.status === "available" ? "bg-green-100 text-green-800" : "bg-amber-100 text-amber-800"
+                            book.status === "available" 
+                              ? "bg-green-100 text-green-800" 
+                              : book.status === "coming-soon"
+                              ? "bg-gray-100 text-gray-800"
+                              : "bg-amber-100 text-amber-800"
                           }`}
                         >
-                          {book.status === "available" ? "Available Now" : "Pre-Order"}
+                          {book.status === "available" ? "Available Now" : book.status === "coming-soon" ? "Coming Soon" : "Pre-Order"}
                         </span>
                       </div>
                     </div>
@@ -112,11 +120,17 @@ export default function BooksPage() {
                         <p className="text-muted-foreground leading-relaxed">{book.description}</p>
                       </div>
                       <div className="space-y-3">
-                        <Button asChild className="w-full" size="lg">
-                          <a href="https://hopefieldradio.myshopify.com" target="_blank" rel="noopener noreferrer">
-                            {book.status === "available" ? "Order Now" : "Pre-Order Now"}
-                          </a>
-                        </Button>
+                        {book.status === "coming-soon" ? (
+                          <Button className="w-full" size="lg" disabled>
+                            Coming Soon
+                          </Button>
+                        ) : (
+                          <Button asChild className="w-full" size="lg">
+                            <a href={book.shopifyUrl || "#"} target="_blank" rel="noopener noreferrer">
+                              {book.status === "available" ? "Order Now" : "Pre-Order Now"}
+                            </a>
+                          </Button>
+                        )}
                         <Button asChild variant="outline" className="w-full bg-transparent">
                           <Link href="/about">About the Author</Link>
                         </Button>
