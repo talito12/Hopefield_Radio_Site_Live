@@ -7,7 +7,7 @@ import { BackgroundVideo } from "@/components/background-video"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Instagram, Youtube, Facebook, Mail } from "lucide-react"
+import { Instagram, Youtube, Facebook, Mail, CheckCircle2 } from "lucide-react"
 import { useState } from "react"
 
 export default function ContactPage() {
@@ -16,11 +16,38 @@ export default function ContactPage() {
     email: "",
     message: "",
   })
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle")
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    const mailtoLink = `mailto:thelindsays12@gmail.com?subject=Message from ${formData.name}&body=${formData.message}%0D%0A%0D%0AFrom: ${formData.email}`
-    window.location.href = mailtoLink
+    setIsSubmitting(true)
+    setSubmitStatus("idle")
+
+    try {
+      const response = await fetch("https://formspree.io/f/mbdlnzvq", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+        }),
+      })
+
+      if (response.ok) {
+        setSubmitStatus("success")
+        setFormData({ name: "", email: "", message: "" })
+      } else {
+        setSubmitStatus("error")
+      }
+    } catch (error) {
+      setSubmitStatus("error")
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -38,6 +65,20 @@ export default function ContactPage() {
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div className="bg-white/95 backdrop-blur-sm rounded-lg p-8 shadow-xl">
               <h2 className="text-2xl font-serif text-gray-900 mb-6">Send Us a Message</h2>
+
+              {submitStatus === "success" && (
+                <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg flex items-center gap-3">
+                  <CheckCircle2 className="w-5 h-5 text-green-600" />
+                  <p className="text-green-800">Message sent successfully! We'll get back to you soon.</p>
+                </div>
+              )}
+
+              {submitStatus === "error" && (
+                <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
+                  <p className="text-red-800">Failed to send message. Please try again or email us directly.</p>
+                </div>
+              )}
+
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
@@ -50,6 +91,7 @@ export default function ContactPage() {
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     placeholder="John Doe"
+                    disabled={isSubmitting}
                   />
                 </div>
                 <div>
@@ -63,6 +105,7 @@ export default function ContactPage() {
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     placeholder="john@example.com"
+                    disabled={isSubmitting}
                   />
                 </div>
                 <div>
@@ -76,11 +119,12 @@ export default function ContactPage() {
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     placeholder="Tell us what's on your heart..."
                     rows={5}
+                    disabled={isSubmitting}
                   />
                 </div>
                 <Button type="submit" className="w-full" size="lg">
                   <Mail className="w-4 h-4 mr-2" />
-                  Send Message
+                  {isSubmitting ? "Sending..." : "Send Message"}
                 </Button>
               </form>
             </div>
@@ -103,7 +147,11 @@ export default function ContactPage() {
                         </a>
                       </Button>
                       <Button asChild variant="outline" className="w-full justify-start bg-transparent" size="sm">
-                        <a href="https://www.facebook.com/profile.php?id=61585583761173#" target="_blank" rel="noopener noreferrer">
+                        <a 
+                          href="https://www.facebook.com/profile.php?id=61585583761173#" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                        >
                           <Facebook className="w-4 h-4 mr-3" />
                           Hopefield Radio
                         </a>
@@ -147,7 +195,7 @@ export default function ContactPage() {
                 <h3 className="text-xl font-serif text-gray-900 mb-4">Direct Email</h3>
                 <p className="text-gray-700 mb-4">Prefer email? Reach us directly at:</p>
                 <a
-                  href="mailto:hello@hopefieldradio.com"
+                  href="mailto:thelindsays12@gmail.com"
                   className="text-amber-600 hover:text-amber-700 font-medium text-lg break-all"
                 >
                   thelindsays12@gmail.com
