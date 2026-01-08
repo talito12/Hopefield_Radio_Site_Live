@@ -92,7 +92,7 @@ const timelineEvents: TimelineEvent[] = [
     location: "Washington DC",
     description: "We celebrated our first year of marriage with a trip to Washington DC.",
     icon: Heart,
-    image: "/1st_Anniversary.jpeg",
+    image: "/1st_Anniversary_2.jpeg",
   },
   {
     year: "2023",
