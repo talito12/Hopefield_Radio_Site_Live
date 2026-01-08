@@ -20,7 +20,7 @@ const timelineEvents: TimelineEvent[] = [
     location: "Mansfield, OH",
     description: "Our story began in high school in Mansfield, where we first crossed paths.",
     icon: Heart,
-    image: "/young-couple-meeting-high-school-love-story.jpg",
+    image: "/Mansfield_Senior_High.jpg",
   },
   {
     year: "2016",
@@ -28,7 +28,7 @@ const timelineEvents: TimelineEvent[] = [
     location: "Mansfield, OH",
     description: "We officially became a couple and started our journey together in Mansfield.",
     icon: Heart,
-    image: "/young-couple-dating-romantic-relationship.jpg",
+    image: "/early_days.jpg",
   },
   {
     year: "2017",
@@ -36,7 +36,7 @@ const timelineEvents: TimelineEvent[] = [
     location: "Columbus, OH",
     description: "We took a big step and moved to Columbus to start our new life together.",
     icon: MapPin,
-    image: "/couple-moving-new-city-columbus-skyline.jpg",
+    image: "/Moved_Columbus.jpeg",
   },
   {
     year: "2018",
@@ -44,7 +44,7 @@ const timelineEvents: TimelineEvent[] = [
     location: "Columbus, OH",
     description: "God blessed us with our first child, beginning our journey as parents.",
     icon: Baby,
-    image: "/happy-couple-with-newborn-baby.jpg",
+    image: "/Ahsata.jpeg",
   },
   {
     year: "2019",
@@ -52,7 +52,7 @@ const timelineEvents: TimelineEvent[] = [
     location: "Fort Myers, FL",
     description: "We traveled to Fort Myers for a beautiful family vacation by the beach.",
     icon: Plane,
-    image: "/family-beach-vacation-fort-myers-florida.jpg",
+    image: "/first_child.jpg",
   },
   {
     year: "2020",
@@ -60,7 +60,7 @@ const timelineEvents: TimelineEvent[] = [
     location: "Columbus, OH",
     description: "Our family grew with the arrival of our second child, doubling our blessings.",
     icon: Baby,
-    image: "/family-of-four-with-two-children.jpg",
+    image: "/Ezra.jpeg",
   },
   {
     year: "2020",
@@ -68,7 +68,7 @@ const timelineEvents: TimelineEvent[] = [
     location: "Columbus, OH",
     description: "TJ proposed and we got engaged in Columbus, taking the next step in our journey.",
     icon: Ring,
-    image: "/romantic-engagement-proposal-ring.jpg",
+    image: "/Engagement.jpeg",
   },
   {
     year: "2021",
@@ -76,7 +76,7 @@ const timelineEvents: TimelineEvent[] = [
     location: "Columbus, OH",
     description: "We said 'I do' and became husband and wife in a beautiful ceremony in Columbus.",
     icon: Church,
-    image: "/beautiful-couple-wedding-love-romantic-sunset.jpg",
+    image: "/Wedding_LAUGH.jpeg",
   },
   {
     year: "2021",
@@ -84,7 +84,7 @@ const timelineEvents: TimelineEvent[] = [
     location: "San Diego, CA",
     description: "We celebrated our marriage with a romantic honeymoon in beautiful San Diego.",
     icon: Plane,
-    image: "/romantic-couple-honeymoon-san-diego-beach.jpg",
+    image: "/Honey_Moon.jpeg",
   },
   {
     year: "2022",
@@ -92,7 +92,7 @@ const timelineEvents: TimelineEvent[] = [
     location: "Washington DC",
     description: "We celebrated our first year of marriage with a trip to Washington DC.",
     icon: Heart,
-    image: "/couple-anniversary-washington-dc-monuments.jpg",
+    image: "/1st_Anniversary.jpeg",
   },
   {
     year: "2023",
@@ -100,7 +100,7 @@ const timelineEvents: TimelineEvent[] = [
     location: "Cleveland, OH",
     description: "Our second anniversary took us to Cleveland for a special celebration.",
     icon: Heart,
-    image: "/couple-anniversary-celebration-cleveland.jpg",
+    image: "/2nd_Anniversary.jpeg",
   },
   {
     year: "2024",
@@ -108,7 +108,7 @@ const timelineEvents: TimelineEvent[] = [
     location: "Toronto, Canada",
     description: "We celebrated three years of marriage with an international trip to Toronto.",
     icon: Heart,
-    image: "/couple-anniversary-toronto-canada-skyline.jpg",
+    image: "/3rd_Anniversary.jpeg",
   },
   {
     year: "2024",
@@ -116,7 +116,7 @@ const timelineEvents: TimelineEvent[] = [
     location: "Orlando, FL",
     description: "A magical family trip to Universal Studios in Orlando with our children.",
     icon: Plane,
-    image: "/family-universal-studios-orlando-vacation.jpg",
+    image: "/Universal_Studios.jpeg",
   },
   {
     year: "2025",
@@ -124,7 +124,7 @@ const timelineEvents: TimelineEvent[] = [
     location: "San Diego, CA",
     description: "Celebrating four years of marriage back in San Diego, where we honeymooned.",
     icon: Heart,
-    image: "/couple-anniversary-san-diego-beach-sunset.jpg",
+    image: "/4th_Anniversary.jpeg",
   },
 ]
 

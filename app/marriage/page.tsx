@@ -45,7 +45,7 @@ export default function MarriagePage() {
           <div className="bg-white/95 backdrop-blur-sm rounded-lg p-8 shadow-xl mb-12">
             <h2 className="text-3xl font-serif text-gray-900 mb-6">Our Journey Together</h2>
             <p className="text-gray-700 leading-relaxed mb-8">
-              From where we met in Mansfield, Ohio, to building our home in Columbus, our journey has taken us across
+              From where we met in Mansfield, Ohio, to buying our home in Columbus, our journey has taken us across
               the country and beyond. Click on any milestone to see photos and details from that special moment in our
               story.
             </p>
