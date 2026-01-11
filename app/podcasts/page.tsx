@@ -91,10 +91,10 @@ export default function PodcastsPage() {
             <h3 className="text-2xl font-serif text-white drop-shadow-lg mb-6">Recent Episodes</h3>
             <div className="grid md:grid-cols-2 gap-6">
               {[
+                { id: 'GSXg9hwTES4', title: 'Trippin For God and The Soft Girl Era', description: 'Interviewing the Author of Trippin For God and discussing the Soft Girl Era in dating'},
                 { id: 'yAMns3CN3_w', title: 'Who\'s the prize in a relationship?', description: 'Who\'s the prize in a relationship?' },
                 { id: 'wSFkuHKnIjA', title: 'The Great Expectation Reset: Aligning your marriage vision', description: 'Managing Expectations in marriage over time' },
                 { id: 'eh3XRCSY_-Q', title: 'Pick Mes, Simps and Reciprocation', description: 'Discussing the concept behind common labels placed on people in today\'s dating society'},
-                { id: 'RqG8uI8bXGQ', title: 'The Talking Stage and the power of words', description: 'Sharing our thoughts on the relevance of the talking stage in a relationship'},
               ].map((episode, i) => (
                 <div key={i} className="bg-white/95 backdrop-blur-sm rounded-lg overflow-hidden shadow-xl">
                   <div className="aspect-video bg-gray-900">
