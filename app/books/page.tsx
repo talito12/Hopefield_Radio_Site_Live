@@ -26,7 +26,7 @@ const books = [
     id: 2,
     title: "Trippin for God",
     author: "Tyanna Lindsay",
-    status: "Pre-Order",
+    status: "available",
     description:
       "An inspiring journey of faith and adventure as Tyanna shares stories of traveling the world while deepening her relationship with God. Discover how stepping out in faith can lead to extraordinary experiences and spiritual growth.",
     coverImage: "/TFG_book_cover.jpg",
