@@ -91,10 +91,10 @@ export default function PodcastsPage() {
             <h3 className="text-2xl font-serif text-white drop-shadow-lg mb-6">Recent Episodes</h3>
             <div className="grid md:grid-cols-2 gap-6">
               {[
+                { id: 'hi0aaxqEdmk', title: 'Relationship Regrets and Trauma Bonding', description: 'What relationship regrets do you have and can two people who are bonding based on trauma heal together?'},
                 { id: 'Kp7cJrw_TjA', title: 'Traveling Together, Shacking Up and Kids before Marriage', description: 'Lessons couples can learn from traveling together and our experience with living together and having kids before marriage'},
                 { id: 'gRz3AMC0vmY', title: 'Making Decisions for your children, Having a type and social media lust', description: 'Talking about how to influence decisions with your kids in a biblical manner, Is having a type keeping your single and social media lust'},
                 { id: 'GSXg9hwTES4', title: 'Trippin For God and The Soft Girl Era', description: 'Interviewing the Author of Trippin For God and discussing the Soft Girl Era in dating'},
-                { id: 'yAMns3CN3_w', title: 'Who\'s the prize in a relationship?', description: 'Who\'s the prize in a relationship?' },
               ].map((episode, i) => (
                 <div key={i} className="bg-white/95 backdrop-blur-sm rounded-lg overflow-hidden shadow-xl">
                   <div className="aspect-video bg-gray-900">
