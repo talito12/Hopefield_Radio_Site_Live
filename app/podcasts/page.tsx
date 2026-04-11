@@ -71,7 +71,7 @@ export default function PodcastsPage() {
 
               <div className="grid sm:grid-cols-3 gap-4">
                 <div className="bg-gray-50 rounded-lg p-4 text-center">
-                  <p className="text-2xl font-bold text-gray-900">100+</p>
+                  <p className="text-2xl font-bold text-gray-900">30+</p>
                   <p className="text-sm text-gray-600">Episodes</p>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-4 text-center">
@@ -79,7 +79,7 @@ export default function PodcastsPage() {
                   <p className="text-sm text-gray-600">New Episodes</p>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-4 text-center">
-                  <p className="text-2xl font-bold text-gray-900">10K+</p>
+                  <p className="text-2xl font-bold text-gray-900">60+</p>
                   <p className="text-sm text-gray-600">Subscribers</p>
                 </div>
               </div>
