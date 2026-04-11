@@ -91,7 +91,7 @@ export default function PodcastsPage() {
             <h3 className="text-2xl font-serif text-white drop-shadow-lg mb-6">Recent Episodes</h3>
             <div className="grid md:grid-cols-2 gap-6">
               {[
-                { id: 't0-ggxI-oJU', title: 'The Narrow Road: Leadership, Comparison and Counting the Cost', description: 'Leading by example, Examining if what you wear determines how you are treated and being yourself in a noisy world'},
+                { id: 'IQygyWHvPl8', title: 'The Narrow Road: Leadership, Comparison and Counting the Cost', description: 'Leading by example, Examining if what you wear determines how you are treated and being yourself in a noisy world'},
                 { id: 'UGHrwzXFF2E', title: 'The Power of Reading, Internet Experts and The Absent Village', description: 'The Power of Reading, the problem with internet experts and The Absent Village'},
                 { id: '0o_9IVDD3fU', title: 'Ari Lennox, Toxic Dating and The Responsibility of the Modern Church', description: 'Ari Lennox her toxic dating preference and the responsibility of the modern church'},
                 { id: '5TvCFzn99-w', title: 'Role Models, The Perfect Age and is Marriage only for believers?', description: 'The responsibility of celebrities as role models, The connection between being a beiliever and marriage and The Perfect Age to marry'},
