@@ -91,10 +91,10 @@ export default function PodcastsPage() {
             <h3 className="text-2xl font-serif text-white drop-shadow-lg mb-6">Recent Episodes</h3>
             <div className="grid md:grid-cols-2 gap-6">
               {[
+                { id: 'OpNZ8VpUAV8', title: 'Before You Say I do: Kids, Cost and The Struggles No One Talks About', description: 'The Cost of weddings vs. The actual marriage, Kids and The True Struggles married couples go through that no one speak about'},
                 { id: 'Cp21P_X0OVo', title: 'Growing Together: Unequally Yoked, Submission & Relationship Fatigue', description: 'Marrying based on potential vs. reality, relationship fatigue and our marriage bootcamp preview'},
                 { id: 'IQygyWHvPl8', title: 'The Narrow Road: Leadership, Comparison and Counting the Cost', description: 'Leading by example, Examining if what you wear determines how you are treated and being yourself in a noisy world'},
                 { id: 'UGHrwzXFF2E', title: 'The Power of Reading, Internet Experts and The Absent Village', description: 'The Power of Reading, the problem with internet experts and The Absent Village'},
-                { id: '0o_9IVDD3fU', title: 'Ari Lennox, Toxic Dating and The Responsibility of the Modern Church', description: 'Ari Lennox her toxic dating preference and the responsibility of the modern church'},
               ].map((episode, i) => (
                 <div key={i} className="bg-white/95 backdrop-blur-sm rounded-lg overflow-hidden shadow-xl">
                   <div className="aspect-video bg-gray-900">
