@@ -20,7 +20,7 @@ const books = [
     status: "available",
     description: "Letters to my sisters is a fierce, faith-lit memoir of a black woman who turns her most private pain into a public path to healing. Raised under relentless expectations, she spirals into self-doubt and suicidal thoughts-until a quiet inner voice urgers her to fight. Witness this epic Journey of love, faith and redemption",
     coverImage: "/Letters_to_my_sisters.jpg",
-    shopifyUrl: "https://hopefieldradio.myshopify.com/products/letters-to-my-sisters?variant=46867661914348",
+    shopifyUrl: "https://buy.stripe.com/test_4gMcN7fHE8HG414dHi9AA00",
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const books = [
     description:
       "An inspiring journey of faith and adventure as Tyanna shares stories of traveling the world while deepening her relationship with God. Discover how stepping out in faith can lead to extraordinary experiences and spiritual growth.",
     coverImage: "/TFG_book_cover.jpg",
-    shopifyUrl: "https://hopefieldradio.myshopify.com/products/trippin-for-god?variant=47177418637548",
+    shopifyUrl: "https://buy.stripe.com/test_9B6bJ3dzwbTSeFIdHi9AA01",
   },
   {
     id: 3,
