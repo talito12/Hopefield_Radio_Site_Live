@@ -91,10 +91,10 @@ export default function PodcastsPage() {
             <h3 className="text-2xl font-serif text-white drop-shadow-lg mb-6">Recent Episodes</h3>
             <div className="grid md:grid-cols-2 gap-6">
               {[
+                { id: 'vi32eM6c3kY', title: 'The Blueprint: Breaking The Cycle and The Comeback', description: 'Today we discuss breaking generational curses by living by gods design for our lives and discuss the fact that its never too late to make a comback'},
                 { id: '4lv_tigQYKg', title: 'The Gen Z Dating Dilemna, Long Distance Relationships and Your true Worth', description: 'Why Gen Z is having trouble with dating, Are long distance relationships sustainable and Are you the table'},
                 { id: '0hBmRb-fx3o', title: 'Portable Prayer: Why the Enemy is Destroying Your Relationship', description: 'The real reason why your relationships keep falling apart may be more spiritual than you think. Here are tips to keep the Enemy from destroying your love life'},
                 { id: 'EZ8gJHUuD10', title: 'The War on Black Marriage and Why your Testimony Matters', description: 'Has Gender Wars, Social Media and propaganda cost us our community and generational wealth. Also listen to our Powerful Testimony'},
-                { id: 'OpNZ8VpUAV8', title: 'Before You Say I do: Kids, Cost and The Struggles No One Talks About', description: 'The Cost of weddings vs. The actual marriage, Kids and The True Struggles married couples go through that no one speak about'},
               ].map((episode, i) => (
                 <div key={i} className="bg-white/95 backdrop-blur-sm rounded-lg overflow-hidden shadow-xl">
                   <div className="aspect-video bg-gray-900">
