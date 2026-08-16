@@ -91,10 +91,10 @@ export default function PodcastsPage() {
             <h3 className="text-2xl font-serif text-white drop-shadow-lg mb-6">Recent Episodes</h3>
             <div className="grid md:grid-cols-2 gap-6">
               {[
+                { id: 'AZjBuzi_XL0', title: 'Marriage with a purpose. Faith, Presense and Rediscovering each other', description: 'Having a shared purpose in your relationship is important. Staying present with your partner is vital. Rediscovering each other and finding new ways to love are crucial'},
                 { id: '7PVfHoU3r40', title: 'The Relationship Game: Staying Friends, Handling Money and Marriage Obsession', description: 'What is the best way to stay lovers and friends in a relationship, What is the role of Money and Does the church do a good job of teaching us to not idolize marriage over our relationship with god?'},
                 { id: 'vi32eM6c3kY', title: 'The Blueprint: Breaking The Cycle and The Comeback', description: 'Today we discuss breaking generational curses by living by gods design for our lives and discuss the fact that its never too late to make a comback'},
                 { id: '4lv_tigQYKg', title: 'The Gen Z Dating Dilemna, Long Distance Relationships and Your true Worth', description: 'Why Gen Z is having trouble with dating, Are long distance relationships sustainable and Are you the table'},
-                { id: '0hBmRb-fx3o', title: 'Portable Prayer: Why the Enemy is Destroying Your Relationship', description: 'The real reason why your relationships keep falling apart may be more spiritual than you think. Here are tips to keep the Enemy from destroying your love life'},
               ].map((episode, i) => (
                 <div key={i} className="bg-white/95 backdrop-blur-sm rounded-lg overflow-hidden shadow-xl">
                   <div className="aspect-video bg-gray-900">
