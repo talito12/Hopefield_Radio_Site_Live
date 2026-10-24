@@ -12,6 +12,7 @@ const navLinks = [
   { href: "/music", label: "Music" },
   { href: "/podcasts", label: "Podcasts" },
   { href: "/marriage", label: "Marriage" },
+  { href: "/thanksgiving", label: "Thanksgiving" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ]
